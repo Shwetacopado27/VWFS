@@ -1,0 +1,4 @@
+**/layouts/*.layout-meta.xml
+**/triggers/**
+**/lwc/**
+**/pages/**
