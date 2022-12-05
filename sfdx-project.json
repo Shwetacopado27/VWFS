@@ -3,7 +3,15 @@
     {
       "path": "force-app",
       "default": true
-    }
+    },
+    {
+      "path": "package A",
+      "default": false
+  },
+  {
+    "path": "package B",
+    "default": false
+}
   ],
   "name": "VWFS_Demo",
   "namespace": "",
