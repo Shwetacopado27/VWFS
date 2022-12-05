@@ -5,12 +5,16 @@
       "default": true
     },
     {
-      "path": "package A",
+      "path": "Package A",
       "default": false
   },
   {
-    "path": "package B",
-    "default": false
+    "path": "Package B",
+    "default": false,
+    "dependencies": [
+      "package": "Package A",
+      "versionnumber": "0.1.0.LATEST"
+  ]
 }
   ],
   "name": "VWFS_Demo",
