@@ -2,3 +2,6 @@
 **/triggers/**
 **/lwc/**
 **/pages/**
+**/jsconfig.json
+
+**/.eslintrc.json
