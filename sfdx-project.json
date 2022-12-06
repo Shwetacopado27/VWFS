@@ -20,7 +20,7 @@
 }
   ],
   "name": "VWFS_Demo",
-  "namespace": "vwfs",
+  "namespace": "shwdemo",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "55.0"
 }
