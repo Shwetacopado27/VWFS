@@ -2,7 +2,7 @@
     "packageDirectories": [
         {
             "path": "force-app",
-            "default": false
+            "default": true
         },
         {
             "path": "Package A",
@@ -13,13 +13,15 @@
         },
         {
             "path": "Package B",
-            "default": true,
+            "default": false,
             "dependencies": [
                 {
-                    "package": "Package A",
-                    "versionnumber": "0.1.0.LATEST"
+                    "package": "Package A@0.1.0-2-main"
                 }
-            ]
+            ],
+            "package": "Package B",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
         }
     ],
     "name": "VWFS_Demo",
@@ -27,6 +29,9 @@
     "sfdcLoginUrl": "https://login.salesforce.com",
     "sourceApiVersion": "55.0",
     "packageAliases": {
-        "Package A": "0Ho7Q0000008OZzSAM"
+        "Package A": "0Ho7Q0000008OZzSAM",
+        "Package B": "0Ho7Q0000008Oa4SAE",
+        "Package A@0.1.0-2-main": "04t7Q000000dEsjQAE",
+        "Package B@0.1.0-1-main": "04t7Q000000dEstQAE"
     }
 }
