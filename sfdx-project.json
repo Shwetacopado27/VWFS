@@ -17,7 +17,6 @@
             "dependencies": [
                 {
                     "package": "Package A@0.1.0-2-main"
-                  
                 }
             ],
             "package": "Package B",
@@ -32,6 +31,7 @@
     "packageAliases": {
         "Package A": "0Ho7Q0000008OZzSAM",
         "Package B": "0Ho7Q0000008Oa4SAE",
-        "Package A@0.1.0-2-main": "04t7Q000000dEsjQAE"
+        "Package A@0.1.0-2-main": "04t7Q000000dEsjQAE",
+        "Package B@0.1.0-1-main": "04t7Q000000dEstQAE"
     }
 }
