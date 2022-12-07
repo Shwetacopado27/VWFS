@@ -16,8 +16,8 @@
             "default": false,
             "dependencies": [
                 {
-                    "package": "Package A",
-                    "versionnumber": "0.1.0.LATEST"
+                    "package": "Package A@0.1.0-2-main"
+                  
                 }
             ],
             "package": "Package B",
