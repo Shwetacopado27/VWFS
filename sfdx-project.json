@@ -2,11 +2,11 @@
     "packageDirectories": [
         {
             "path": "force-app",
-            "default": true
+            "default": false
         },
         {
             "path": "Package A",
-            "default": false,
+            "default": true,
             "package": "Package A",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT"
