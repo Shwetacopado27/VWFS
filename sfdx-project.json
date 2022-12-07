@@ -19,7 +19,10 @@
                     "package": "Package A",
                     "versionnumber": "0.1.0.LATEST"
                 }
-            ]
+            ],
+            "package": "Package B",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
         }
     ],
     "name": "VWFS_Demo",
@@ -27,6 +30,7 @@
     "sfdcLoginUrl": "https://login.salesforce.com",
     "sourceApiVersion": "55.0",
     "packageAliases": {
-        "Package A": "0Ho7Q0000008OZzSAM"
+        "Package A": "0Ho7Q0000008OZzSAM",
+        "Package B": "0Ho7Q0000008Oa4SAE"
     }
 }
